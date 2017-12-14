@@ -1,0 +1,1 @@
+# opensuse-python2-image
