@@ -19,7 +19,8 @@ FROM cafapi/opensuse-jre8:1.2
 # Update the OS packages and install Python
 RUN zypper -n refresh && \
     zypper -n update && \
-    zypper -n install python-devel python-pip python-setuptools libxml2-devel libxslt-devel zlib-devel python-numpy python-lxml python-scipy python-matplotlib
+    zypper -n install python-devel python-pip python-setuptools libxml2-devel \
+    libxslt-devel zlib-devel python-numpy python-lxml python-scipy python-matplotlib
 
 # Tag the image
 ARG BUILD_NUMBER
