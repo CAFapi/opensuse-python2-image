@@ -1,6 +1,6 @@
 # openSUSE and Python2 image
 
-This project builds on the openSUSE Java image [here](https://github.com/CAFapi/opensuse-jre8-image) and includes Python version 2. It can be used as a base image by projects which require Python2.
+This project builds on the openSUSE Java image [here](https://github.com/CAFapi/opensuse-java8-images) and includes Python version 2. It can be used as a base image by projects which require Python2.
 
 ### Tini
 [Tini](https://github.com/krallin/tini) is pre-installed in the container.  If the image entrypoint is not overwritten then it will be automatically used.
